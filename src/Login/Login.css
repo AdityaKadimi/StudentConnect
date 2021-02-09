@@ -1,0 +1,73 @@
+
+#root>div {
+  width: 500px;
+  margin: auto;
+  margin-top: 1%;
+  font-family: 'Roboto', sans-serif;
+}
+
+#signup, #login {
+  width: 100%;
+  background: #2c3e50;
+}
+
+#signup {
+  height: 650px;
+}
+
+#login {
+  height: 300px;
+}
+
+.yellow {
+  background-color: gold;
+}
+
+.pink{
+  background-color: #b3127d;
+}
+
+#buttons {
+  height: 100px;
+  background: #2c3e50;
+}
+
+#buttons>p {
+  width: 49.95%;
+  float: left;
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+  height: 75%;
+  margin: 0;
+}
+
+#buttons>p:hover {
+  background: #852263;
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+#signup>input, #signup>button {
+  margin-top: 20px;
+  margin-left: 105px;
+  height: 25px;
+  border: none;
+  border-radius: 2px;
+}
+
+#email {
+  width: 49.95%;
+}
+
+#password {
+  width: 49.95%;
+  margin-left: 105px !important;
+}
+
+#login>#email, #login>#password, #login>button {
+  width: 250px;
+  margin-left: 125px !important;
+  margin-top: 20px;
+  height: 25px;
+}
